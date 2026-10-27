@@ -6,7 +6,10 @@ import { movieCastRouter } from "./moviecast/movie.route.js";
 import ticketRouter from "./Tickets/tickets.route.js";
 import authRouter from "../src/modules/Auth/auth.route.js";
 import cors from "cors"
-import { adminRouter } from "./Admin/admin.route.js";
+import { adminRouter } from "./admin/admin.route.js";
+import { configDotenv } from "dotenv";
+
+configDotenv()
  const app=express();
  app.use(express.json())
  app.use(cors())
