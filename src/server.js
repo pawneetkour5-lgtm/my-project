@@ -6,7 +6,7 @@ import { movieCastRouter } from "./moviecast/movie.route.js";
 import ticketRouter from "./Tickets/tickets.route.js";
 import authRouter from "../src/modules/Auth/auth.route.js";
 import cors from "cors"
-import { adminRouter } from "./admin/admin.route.js";
+import { adminRouter } from "./administator/admin.route.js";
 import { configDotenv } from "dotenv";
 
 configDotenv()
